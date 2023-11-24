@@ -356,6 +356,10 @@ margin-top: 0;
 
 /* Store customization div */
 
+.svg-checkbox{
+    background-color: red;
+}
+
 .store-customization-div-wrapper{
     min-width: 374px;
     height: 309px;
@@ -401,6 +405,10 @@ background: #F3F3F3;
     /* background-color: pink; */
 }
 
+.customize-store-toggle-button{
+
+}
+
 .store-customization-ticker-content-div{
     width: 326px;
     height: 117px;
@@ -416,6 +424,11 @@ font-weight: 600;
 line-height: 140%; 
 width: 176px;
 height: 18px;
+
+}
+
+.checkers-details{
+    display: block;
 }
 
 .store-customization-content-div p{
@@ -458,6 +471,97 @@ color: #F6F3F6;
 }
 
 
+/* /////////// */
+
+.first-product-button-div{
+    display: flex;
+    align-items: center;
+    
+    gap: 16px;
+    
+}
+
+.first-product-button-div svg{
+   
+   margin-top: 16px;
+}
+
+/* .first-product-button-div p{
+    display: flex;
+} */
+
+.first-product-cta-div{
+    width: 374px;
+    height: 159px;
+    background-color: khaki;
+}
+
+
+#import-product-btn{
+    
+    background-color: transparent;
+    width: 112px;
+    height: 28px;
+    
+    
+
+    /* text */
+    color: var(--font-dark, #323232);
+
+/* Text-12/Semi bold */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+}
+
+
+.custome-domain-div {
+    width: 326px;
+    height: 139px;
+}
+
+.custome-domain-div h2{
+    width: 137px;
+    height: 18px;
+    margin-bottom: 16px;
+}
+
+.custome-domain-div p{
+    width: 326px;
+    height: 57px;
+    margin-bottom: 16px;
+    color: var(--font-mid-2, #616161);
+
+/* Text-13/medium */
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 18.2px */
+}
+
+.custome-domain-div button{
+    margin-top: 0px;
+    border-radius: 6px;
+border-top: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20));
+border-right: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20));
+border-left: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20));
+background: #404040;
+box-shadow: 0px 0px 0px 1.5px #333, 0px 1px 0px 1.5px #333, 0px 2px 0px 0px #000;
+
+/* content style */
+color: var(--font-light, #F6F3F6);
+
+/* Text-12/Semi bold */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; 
+}
+
 
 .task-checker{
     width: 374px;
@@ -467,6 +571,11 @@ color: #F6F3F6;
     align-items: center;
     justify-content: center;
 }
+
+#task-checker-one{
+    display: none;
+}
+
 
 .task-checker-inner-div{
     width: 358px;
@@ -490,6 +599,11 @@ width: 137px;
 height: 18px;
 }
 
+#task-checker-text{
+    width: 174px;
+    height: 18px;
+    /* background-color: green; */
+}
 
 #task-checker-text-two{
     width: 136px;
