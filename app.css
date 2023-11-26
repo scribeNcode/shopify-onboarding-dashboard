@@ -356,6 +356,23 @@ margin-top: 0;
 
 /* Store customization div */
 
+.svg-checkbox {
+    transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+  }
+
+  .svg-checkbox:hover {
+    transform: scale(1.2);
+    stroke-dasharray: none; /* Set to 'none' to remove the stroke-dasharray */
+  }
+
+#details-one, #details-two{
+    display: block;
+}
+
+/* .hidden{
+    display: none;
+} */
+
 .svg-checkbox{
     background-color: red;
 }
