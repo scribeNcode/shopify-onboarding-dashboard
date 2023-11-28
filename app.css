@@ -365,7 +365,7 @@ margin-top: 0;
     stroke-dasharray: none; /* Set to 'none' to remove the stroke-dasharray */
   }
 
-#details-one, #details-two{
+ #details-two{
     display: block;
 }
 

@@ -67,8 +67,9 @@
 
 
 const checkBoxes = document.querySelectorAll(".svg-checkbox");
-console.log(checkBoxes)
+// console.log(checkBoxes)
 const checkersDetails = document.querySelectorAll(".checkers-details");
+// console.log(checkersDetails)
 
 
 
@@ -81,6 +82,9 @@ checkBoxes.forEach(checkBox=>{
         //do something based on the click state
         if(checkBox.classList.contains('checked')){
             console.log(`${checkBox.id} is checked`)
+            //toggle a new class to display more details
+            
+            // console.log(checkBox)
 
             //additional function when checked
             if(checkBox.id === 'customize-store-toggle-button'){
